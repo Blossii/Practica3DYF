@@ -17,7 +17,7 @@ if not exist "%XR_RUNTIME_JSON%" (
 
 echo OpenXR runtime: %XR_RUNTIME_JSON%
 
-if not defined UE_ROOT set "UE_ROOT=C:\Program Files\Epic Games\UE_5.8"
+if not defined UE_ROOT set "UE_ROOT=A:\UE_5.8"
 set "UE_EDITOR=%UE_ROOT%\Engine\Binaries\Win64\UnrealEditor.exe"
 
 if exist "%UE_EDITOR%" (
